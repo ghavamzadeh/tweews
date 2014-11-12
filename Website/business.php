@@ -1,0 +1,16 @@
+<?php include 'header.php'; ?>
+
+<div id="content">
+<h1>Business</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis nisl tincidunt, mollis urna a, sagittis augue. Quisque placerat arcu tellus, a pulvinar ligula dictum vitae. Nulla maximus, tortor eu sodales feugiat, lacus augue pretium metus, eget imperdiet lorem lorem at velit. Phasellus sed orci tellus. Nunc vitae dapibus massa, eu aliquam massa. Curabitur ac lorem odio. Nulla hendrerit, est quis dictum pretium, turpis turpis cursus tortor, vel tempor lorem libero porta justo. Nulla blandit luctus risus a mattis. Cras fermentum vehicula velit, in molestie diam rutrum id.</p>
+
+<p>Cras venenatis id est vel posuere. Praesent rutrum varius turpis eget iaculis. Mauris hendrerit ligula tempus, elementum augue id, luctus augue. Quisque justo lectus, viverra eu tincidunt eget, pellentesque sed sapien. Nullam elit dui, eleifend nec dui eu, aliquet ornare massa. Donec volutpat est suscipit, volutpat nunc in, finibus felis. Etiam ut elit et dolor condimentum blandit a et orci. Aliquam quis metus a ipsum tempus fringilla quis a mauris. Proin imperdiet dui id ligula ornare dapibus. Nulla libero tellus, placerat eu aliquet sed, rhoncus at mauris. Nulla a dignissim mi, vitae aliquam neque. Suspendisse potenti. Nulla posuere urna non dignissim efficitur. Proin semper, ex id ullamcorper maximus, justo diam efficitur metus, ac malesuada dolor orci faucibus diam.</p>
+
+<p>Donec porttitor est in mauris malesuada porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed in risus non urna gravida imperdiet sed in tortor. Suspendisse sagittis id turpis sit amet dapibus. Fusce venenatis quam eu lacus tempus, eu ornare nisi pretium. In suscipit posuere sodales. Praesent at ex sed mauris ultricies gravida eu quis mi. Etiam ac nisl suscipit nibh efficitur blandit. Fusce vel ornare mi. Aliquam erat volutpat. Donec dignissim velit ligula, eu lobortis lectus dictum ut.</p>
+
+<p>Phasellus id dignissim metus, id dictum elit. Fusce ornare mauris sed turpis porttitor, vitae lobortis turpis ornare. In fringilla, turpis in ultrices condimentum, tortor nisi facilisis lorem, maximus malesuada nunc nisi elementum enim. Fusce ut eros commodo, pharetra odio sed, convallis nisi. Curabitur semper velit sem, sed porta sem blandit dictum. Quisque eros leo, pulvinar sed laoreet non, lobortis non nisl. Quisque porta vehicula sem vel feugiat. Etiam ex neque, aliquam nec eros pharetra, cursus maximus tortor.</p>
+
+<p>Quisque ut lorem vitae nunc sollicitudin consectetur ut eget massa. Aenean malesuada, mi sed suscipit egestas, nisl sem imperdiet magna, vitae convallis purus libero nec nibh. Donec vehicula felis a mauris ullamcorper, non fermentum justo vestibulum. Nullam feugiat vel nulla quis luctus. Cras ac ex urna. Etiam id est ac enim dignissim interdum in ac urna. In risus diam, congue et augue sed, consequat dignissim urna. Curabitur a tortor eget libero efficitur condimentum eget ac ex. Nunc laoreet, ante ac elementum rutrum, odio elit porta diam, eget facilisis libero orci et risus. Donec laoreet urna ac elit posuere iaculis.</p>
+</div>
+
+<?php include 'footer.php'; ?>
