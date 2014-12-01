@@ -1,3 +1,3 @@
-<h1>Dinero</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu mi sed nisi luctus congue ac in mauris. Nullam lobortis mollis sapien non rutrum. Nullam at ante porttitor, dictum libero ac, porttitor tellus. Maecenas sed ante gravida eros blandit ultrices. Donec vel nisi eu leo dignissim congue non eu mi. Duis metus sem, malesuada id hendrerit quis, laoreet et sem. Ut finibus lobortis bibendum. Fusce ut neque sit amet diam volutpat ornare ac ac lacus. Suspendisse finibus nisl erat, vel scelerisque quam auctor sed. Nam sit amet tortor ultricies est ultrices blandit.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu mi sed nisi luctus congue ac in mauris. Nullam lobortis mollis sapien non rutrum. Nullam at ante porttitor, dictum libero ac, porttitor tellus. Maecenas sed ante gravida eros blandit ultrices. Donec vel nisi eu leo dignissim congue non eu mi. Duis metus sem, malesuada id hendrerit quis, laoreet et sem. Ut finibus lobortis bibendum. Fusce ut neque sit amet diam volutpat ornare ac ac lacus. Suspendisse finibus nisl erat, vel scelerisque quam auctor sed. Nam sit amet tortor ultricies est ultrices blandit.</p>
+<h1>Team Dinero</h1>
+<h3>Tweews - All your favorite tweets in one place</h3>
+<p>During the third term of the Software Engineering & Managment program at the university of Gothenburg team Dinero</p>
