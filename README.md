@@ -1,3 +1,2 @@
-<h1>Team Dinero</h1>
-<h3>Tweews - All your favorite tweets in one place</h3>
-<p>During the third term of the Software Engineering & Managment program at the university of Gothenburg team Dinero</p>
+<h1>Tweews - The most popular tweets stored in one place</h1>
+<p>Tweews is a website connected to a RIAK database through ERLANG.</p>
