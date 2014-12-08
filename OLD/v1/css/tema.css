@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Neuton|Montserrat:700,400);
+
+body{
+font-family: 'Neuton', serif;
+background-color: #eee;
+font-size: 1em;
+padding: 0;
+margin: 0;
+}
+
+h1{font-family: 'Montserrat', sans-serif; margin: 0; padding: 0;}
+h2{font-family: 'Montserrat', sans-serif;}
+h3{font-family: 'Montserrat', sans-serif;}
+h4{font-family: 'Montserrat', sans-serif;}
+p{line-height: 180%; font-size: 1em;}
+a{
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-ms-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+transition: all 400ms ease;
+text-decoration: none;
+color: #000;
+}
+
+#sidebar{
+background-color: #fff;
+width: 300px;
+padding: 20px;
+float: left;
+border-right: 1px solid #ddd; 
+}
+
+#menu{
+margin: 0;
+padding: 0;
+height: 23px;
+}
+
+#menu ul{
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+list-style-type: none;
+border-bottom: 1px solid #ddd;
+}
+
+#menu ul li{
+display: inline;
+}
+
+#menu ul li a{
+float: left;
+width: 6em;
+text-decoration: none;
+color: #000;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#menu ul li a:hover{
+background-color: #000;
+color: #fff;
+}
+
+#header{
+color: #000;
+background-color: #eee;
+border-bottom: 2px solid #000;
+padding: 10px 20px 10px 20px;
+}
+
+.logo{
+font-family: 'Neuton', serif;
+font-size: 1.3em;
+}
+
+#wrap{
+background-color: #fff;
+margin: 0 auto;
+width: 960px;
+min-height: 100%;
+}
+
+#entry{
+padding: 20px;
+float: right;
+width: 550px;
+}
