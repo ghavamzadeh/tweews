@@ -45,7 +45,7 @@ require_once('src/Basho/Riak/Riak.php');
                 /*DIV FOR BOX*/
                  echo '<div class="ctheader">';
 
-                echo '<a class="ttitel" href="http://twitter.com/';
+                echo '<a target="_blank" class="ttitel" href="http://twitter.com/';
 				 echo $user['screen_name']. "\n";
                 echo '">';
         echo $user['screen_name']. "\n";
