@@ -1,30 +1,29 @@
 <div id="sidebar">
+
 <div id="logo">
-<a class="logo" href="index.php">Tweews</a>
+<a class="logo" href="index.php">Politweets</a>
 </div>
 
 <div id="menu">
-	
-	<div class="menu-title">
-	Categories
-	</div>
-	<ul>
-		<li><a href="world.php">World</a></li>
-		<li><a href="politics.php">Politics</a></li>
-		<li><a href="business.php">Business</a></li>
-		<li><a href="technology.php">Technology</a></li>
-		<li><a href="science.php">Science</a></li>
-		<li><a href="health.php">Health</a></li>
-		<li><a href="sports.php">Sports</a></li>
+
+	<ul>		
+		<li><a href="socialdemokraterna.php"><div class="box s">S</div>Socialdemokraterna</a></li>
+		<li><a href=""><div class="box m">M</div>Moderaterna</a></li>
+		<li><a href=""><div class="box sd">SD</div>Sverigedemokraterna</a></li>
+		<li><a href=""><div class="box mp">MP</div>Miljöpartiet</a></li>
+		<li><a href=""><div class="box c">C</div>Centerpartiet</a></li>
+		<li><a href=""><div class="box v">V</div>Vänsterpartiet</a></li>
+		<li><a href=""><div class="box fp">FP</div>Folkpartiet</a></li>
+		<li><a href=""><div class="box kd">KD</div>Kristdemokraterna</a></li>
+		<li><a href=""><div class="box fi">FI</div>Feministisk Initiativ</a></li>
 	</ul>
-	
-	<div class="menu-title">
-	Pages
-	</div>
-	<ul>
-		<li><a href="about.php">About</a></li>
-		<li><a href="help.php">Help</a></li>
-		<li><a href="developers.php">Developers</a></li>
+<div class="menu-title">
+Sidor
+</div>
+
+	<ul>		
+		<li><a href="socialdemokraterna.php">Information</a></li>
+		<li><a href="">Kontakt</a></li>
 	</ul>
 	
 </div>

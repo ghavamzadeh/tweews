@@ -1,0 +1,12 @@
+.ctweet{
+background-color: #fff;
+padding: 30px;
+border: 1px solid #D8D8D8;
+}
+.ttitel{font-size: 16px; font-weight: 600;}
+.ct{float: left;}
+.ctheader{display: block;height: 30px;}
+.datum{float: right;}
+.tcontent{
+display: block;
+}

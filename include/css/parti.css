@@ -1,0 +1,45 @@
+/*Socialdemokraterna*/
+.sp:hover{
+opacity: 0.75; background-color: #ed1b34;
+color: #fff;
+}
+
+/*Moderaterna*/
+.mp:hover{
+opacity: 0.75; background-color: #6cbfdf;
+}
+
+/*Sverigedemokraterna*/
+.sdp:hover{
+opacity: 0.75; background-color: #0097d7;
+}
+
+/*Miljöpartiet*/
+.mpp:hover{
+opacity: 0.75; background-color: #2b912c;
+}
+
+/*Centerpartiet*/
+.cp:hover{
+opacity: 0.75; background-color: #41773d;
+}
+
+/*Vänsterpartiet*/
+.vp:hover{
+opacity: 0.75; background-color: #ed1d24;
+}
+
+/*Folkpartiet*/
+.fp:hover{
+opacity: 0.75; background-color: #003c90;
+}
+
+/*Kristdemokraterna*/
+.kdp:hover{
+opacity: 0.75; background-color: #073192;
+}
+
+/*Feministisk intiativ*/
+.fip:hover{
+opacity: 0.75; background-color: #d93996;
+}
