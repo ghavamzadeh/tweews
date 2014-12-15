@@ -31,7 +31,9 @@
                 $data = $fetched->getData();
 
 echo '<div class="ctweet">';
-
+		echo '<img src="';
+        echo $data['profile_image_url']. "\h";		
+		echo '"/>';
         echo '<div class="ctheader"><div class="ct"><a class="ttitel" href="';
         echo $data['screen_name']. "\h";
 		echo '">';
