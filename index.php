@@ -30,33 +30,23 @@
                 $fetched = $myBucket->get($keys[$x]);
                 $data = $fetched->getData();
 
-		/* BOX WRAPPER #1*/
-		echo '<div class="ctweet">';
+echo '<div class="ctweet">';
 
-		/*PROFILE IMAGE*/
-        echo $data['profile_image_url']. "\n";		
-
-		/*DIV FOR BOX*/
-        echo '<div class="ctheader">';
-		echo '<div class="ct">';
-		
-		echo '<a class="ttitel" href="http://twitter.com/';
-        echo $data['screen_name']. "\n";
-		echo '">';
-        echo $data['screen_name']. "\n";
-		echo '</a>';
+        echo '<div class="ctheader"><div class="ct"><a class="ttitel" href="';
+        echo '">';
+        echo $data['description']. "\n";
+        echo '</a></div>';
 
         echo '<div class="datum">';
         echo $data['created_at']."\r\n";
-        echo '</div>';
+        echo '</div></div>';
 
 
         echo '<div class="tcontent"><p>';
         echo $data['text']. "<br>";
         echo '</p></div>';
 
-		/* BOX WRAPPER END #1 */
-		echo '</div>';
+echo '</div>';
 }
 ?>
 
