@@ -33,7 +33,8 @@
 echo '<div class="ctweet">';
 
         echo '<div class="ctheader"><div class="ct"><a class="ttitel" href="';
-        echo '">';
+        echo $data['screen_name']. "\h";
+		echo '">';
         echo $data['description']. "\n";
         echo '</a></div>';
 
