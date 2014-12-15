@@ -5,8 +5,10 @@ border: 1px solid #D8D8D8;
 -moz-border-radius: 5px;
 border-radius: 5px;
 margin-bottom: 30px;
+background-color: #fff;
+min-height: 50px;
 }
-
+/*
 .ctweet:nth-child(odd) {
 background-color: #FFF;
 }
@@ -14,12 +16,20 @@ background-color: #FFF;
 .ctweet:nth-child(even) {
 background-color: #F9F9F9;
 }
+*/
 
-
-.ttitel{font-size: 14px; font-weight: 600;}
+.profileimage{
+display: block;
+height: 48px;
+width: 48px;
+background-color: #eee;
+float: left;
+margin-right: 35px;
+}
+.ttitel{font-size: 16px; font-weight: 600;}
 .ct{float: left;}
-.ctheader{display: block;height: 30px;}
-.datum{float: right;}
+.ctheader{display: block; height: 70px; line-height: 50px;}
+.datum{float: right; font-size: 14px;}
 .tcontent{
 display: block;
 }
