@@ -25,11 +25,16 @@ width: 48px;
 background-color: #eee;
 float: left;
 margin-right: 35px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
 }
-.ttitel{font-size: 16px; font-weight: 600;}
+.ctweet a{color: #1293FF;}
+.ctweet a:hover{opacity: 0.7;}
+.ttitel{font-size: 16px; font-weight: 400;}
 .ct{float: left;}
 .ctheader{display: block; height: 70px; line-height: 50px;}
-.datum{float: right; font-size: 14px;}
+.datum{float: right; font-size: 14px; color: #ddd;}
 .tcontent{
 display: block;
 }
