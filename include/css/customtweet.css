@@ -1,12 +1,22 @@
 .ctweet{
 background-color: #fff;
-padding: 30px;
+padding: 35px;
 border: 1px solid #D8D8D8;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 30px;
 }
-.ttitel{font-size: 16px; font-weight: 600;}
+.ttitel{font-size: 14px; font-weight: 600;}
 .ct{float: left;}
 .ctheader{display: block;height: 30px;}
 .datum{float: right;}
 .tcontent{
 display: block;
+}
+
+.tcontent p{
+font-size: 1em;
+margin: 0;
+padding: 0;
 }
