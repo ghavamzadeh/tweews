@@ -3,7 +3,7 @@
 
 <div id="content-top">
 <div class="ctop-c">
-<h1>Socialdemokraterna</h1>
+<h1>Vänsterpartiet</h1>
 </div>
 </div>
 

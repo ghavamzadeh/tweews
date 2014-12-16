@@ -13,7 +13,7 @@
                 $myBucket = $client->bucket('world');
                 $keys = $myBucket->getKeys();
 
-                for($x=0; $x<=sizeof($keys); $x++) {
+                for($x=0; $x<=30; $x++) {
                 $fetched = $myBucket->get($keys[$x]);
                 $data = $fetched->getData();
                 $user = $data['user'];
