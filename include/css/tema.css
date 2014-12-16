@@ -12,6 +12,9 @@ background-position: top left;
 background-repeat: repeat-y;
 }
 
+.infotext{
+}
+
 #statusbox{
 height: 200px;
 background-color: #eee;
@@ -56,7 +59,7 @@ font-weight: 300;
 margin-bottom: 10px;}
 h3{}
 h4{}
-p{line-height: 180%; font-size: 0.8em; padding-bottom: 20px; opacity: 0.8;}
+p{line-height: 180%; font-size: 0.9em; padding-bottom: 20px; opacity: 0.8;}
 
 .beta{color: #000; font-size: 0.75em;}
 
@@ -310,12 +313,37 @@ padding: 20px;
 padding: 40px;
 }
 
+#content-content a{
+color: #000;
+text-decoration: underline;
+}
+
+#content-content a:hover{
+text-decoration: none;
+}
+
+#content-content ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.newData{
+height: 300px;
+}
+
+#content-content ul li{
+padding-bottom: 30px;
+font-size: 0.9em;
+opacity: 0.9;
+}
+
 hr{
 border:0;
 height: 1px;
 background-color: #ddd;
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 25px;
+margin-bottom: 25px;
 }
 
 #content-top{

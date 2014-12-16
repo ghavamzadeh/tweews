@@ -22,8 +22,7 @@ Sidor
 </div>
 
 	<ul>		
-		<li><a href="socialdemokraterna.php">Information</a></li>
-		<li><a href="">Kontakt</a></li>
+		<li><a href="information.php">Information</a></li>
 	</ul>
 	
 </div>

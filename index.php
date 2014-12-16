@@ -31,37 +31,40 @@ require_once('src/Basho/Riak/Riak.php');
                 $fetched = $myBucket->get($keys[$x]);
                 $data = $fetched->getData();
                 $user = $data['user'];
-
+                date_default_timezone_set('UTC+8');
+                $date = new DateTime( $data->created_at);
 
 
                 /* BOX WRAPPER #1*/
+				echo '<div id="infinityballs">';
                 echo '<div class="ctweet">';
 
                 /*PROFILE IMAGE*/
                 echo '<img class="profileimage" src="';
-        echo $user['profile_image_url']. "\n";
+				echo $user['profile_image_url']. "\n";
                 echo '"/>';
 
                 /*DIV FOR BOX*/
-                 echo '<div class="ctheader">';
+                echo '<div class="ctheader">';
 
-                echo '<a target="_blank" class="ttitel" href="http://twitter.com/';
-				 echo $user['screen_name']. "\n";
+                echo '<a class="ttitel" href="http://twitter.com/';
+                                 echo $user['screen_name']. "\n";
                 echo '">';
-        echo $user['screen_name']. "\n";
+				echo $user['screen_name']. "\n";
                 echo '</a>';
 
                 echo '<div class="datum">';
-        echo $data['created_at']. "\r\n";
+				echo $date->format( 'h:i l M jS' );
 
                 echo '</div></div>';
 
                 echo '<div class="tcontent"><p>';
-        echo $data['text']. "<br>";
+				echo $data['text']. "<br>";
                 echo '</div>';
 
                 /* BOX WRAPPER END #1 */
                 echo '</div>';
+				echo '</div>';
 }
 ?>
 
