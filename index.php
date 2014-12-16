@@ -8,6 +8,7 @@
 </div>
 
 <div id="content-content">
+<div id="infinityballs">
 
 <?php
 
@@ -36,7 +37,7 @@ require_once('src/Basho/Riak/Riak.php');
 
 
                 /* BOX WRAPPER #1*/
-				echo '<div id="infinityballs">';
+				echo '<div class="newData">';
                 echo '<div class="ctweet">';
 
                 /*PROFILE IMAGE*/
@@ -68,6 +69,7 @@ require_once('src/Basho/Riak/Riak.php');
 }
 ?>
 
+</div>
 </div>
 
 </div>
