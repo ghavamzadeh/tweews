@@ -10,22 +10,8 @@
 <div id="content-content">
 
 <?php
-
-
-require_once('src/Basho/Riak/Riak.php');
-                require_once('src/Basho/Riak/Bucket.php');
-                require_once('src/Basho/Riak/Exception.php');
-                require_once('src/Basho/Riak/Link.php');
-                require_once('src/Basho/Riak/MapReduce.php');
-                require_once('src/Basho/Riak/Object.php');
-                require_once('src/Basho/Riak/StringIO.php');
-                require_once('src/Basho/Riak/Utils.php');
-                require_once('src/Basho/Riak/Link/Phase.php');
-                require_once('src/Basho/Riak/MapReduce/Phase.php');
-
-                                $client = new Basho\Riak\Riak('172.31.32.109',10018);
-                                $myBucket = $client->bucket('world');
-                                $keys = $myBucket->getKeys();
+                $myBucket = $client->bucket('world');
+                $keys = $myBucket->getKeys();
 
                 for($x=0; $x<=sizeof($keys); $x++) {
                 $fetched = $myBucket->get($keys[$x]);
@@ -62,7 +48,6 @@ require_once('src/Basho/Riak/Riak.php');
                 echo '</div>';
 
                 /* BOX WRAPPER END #1 */
-				echo '<div id="loadmoreajaxloader" style="display:none;"><center>Load more bitch</center></div>';
                 echo '</div>';
 }
 ?>

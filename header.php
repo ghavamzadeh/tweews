@@ -11,6 +11,21 @@
 <!-- Include JS files -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
+<?php
+require_once('src/Basho/Riak/Riak.php');
+require_once('src/Basho/Riak/Bucket.php');
+require_once('src/Basho/Riak/Exception.php');
+require_once('src/Basho/Riak/Link.php');
+require_once('src/Basho/Riak/MapReduce.php');
+require_once('src/Basho/Riak/Object.php');
+require_once('src/Basho/Riak/StringIO.php');
+require_once('src/Basho/Riak/Utils.php');
+require_once('src/Basho/Riak/Link/Phase.php');
+require_once('src/Basho/Riak/MapReduce/Phase.php');
+
+$client = new Basho\Riak\Riak('172.31.32.109',10018);				
+?>
+
 </head>
 
 <body>
