@@ -290,6 +290,7 @@ text-shadow: 0 0 1px rgba(0, 0, 0, 0.50);
 float: left;
 top: 0;
 left: 0;
+height: 100%;
 bottom: 0;  /*  this line, and the one above, confer full-height */
 width: 250px;
 background-color: #2c2e2f; /* adjust to taste, just to see where the element was rendered */
