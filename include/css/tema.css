@@ -315,12 +315,12 @@ padding: 40px;
 min-height: 100%;
 }
 
-#content-content a{
+.infotext a{
 color: #000;
 text-decoration: underline;
 }
 
-#content-content a:hover{
+.infotext a:hover{
 text-decoration: none;
 }
 
