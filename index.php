@@ -62,6 +62,7 @@ require_once('src/Basho/Riak/Riak.php');
                 echo '</div>';
 
                 /* BOX WRAPPER END #1 */
+				echo '<div id="loadmoreajaxloader" style="display:none;"><center>Load more bitch</center></div>';
                 echo '</div>';
 }
 ?>
