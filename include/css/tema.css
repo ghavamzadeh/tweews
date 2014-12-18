@@ -19,6 +19,17 @@ h1,h2,h3,h4,h5{
 font-family: 'Open Sans', sans-serif;
 }
 
+.menu-title {
+margin-top: -1px;
+border-top: 1px solid rgba(0,0,0,0.15);
+border-bottom: 1px solid rgba(0,0,0,0.15);
+padding: 20px 30px 20px 30px;
+font-size: 13px;
+color: #fff;
+background-color: #27292a;
+line-height: 25px;
+}
+
 h1{
 font-size: 42px;
 line-height: 165%;
@@ -45,6 +56,7 @@ padding-right: 20px;
 padding-top: 18px;
 padding-bottom: 15px;
 height: 40px;
+border-top: 4px solid #000;
 border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
@@ -158,9 +170,8 @@ min-height: 100%;
 float: left;
 top: 0;
 left: 0;
-min-height: 1400px;
 bottom: 0;  /*  this line, and the one above, confer full-height */
-width: 250px;
+width: 251px;
 background-color: #2c2e2f; /* adjust to taste, just to see where the element was rendered */
 }
 
@@ -178,6 +189,7 @@ margin-bottom: -100px;
 padding-left: 40px;
 padding-right: 40px;
 padding-top: 40px;
+padding-bottom: 40px;
 }
 
 #content-content ul{
