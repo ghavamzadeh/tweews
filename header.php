@@ -7,6 +7,7 @@
 <!-- Include CSS files -->
 <link rel="stylesheet" href="include/css/tema.css" type="text/css">
 <link rel="stylesheet" href="include/css/customtweet.css" type="text/css">
+<link rel="stylesheet" href="include/css/parti.css" type="text/css">
 
 <!-- Include JS files -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -29,6 +30,15 @@ $client = new Basho\Riak\Riak('172.31.32.109',10018);
 </head>
 
 <body>
+<header>
+<div class="header-content">
+	<a class="logo" href="index.php">Politweets</a>
+	
+	<ul>
+	<li><a href="information.php">Info</a></li>
+	</ul>
+</div>
+</header>
 
 <?php include 'sidebar.php'; ?>
 

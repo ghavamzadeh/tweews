@@ -1,45 +1,132 @@
-/*Socialdemokraterna*/
-.sp:hover{
-opacity: 0.75; background-color: #ed1b34;
-color: #fff;
+.box{
+margin-right: 15px;
+padding: 5px;
+height: 19px;
+width: 19px;
+line-height: 19px;
+background-position: center center;
+-webkit-background-size: cover; /* For WebKit*/
+-moz-background-size: cover;    /* Mozilla*/
+-o-background-size: cover;      /* Opera*/
+background-size: cover;         /* Generic*/
+display: block;
+float: left;
 }
 
-/*Moderaterna*/
-.mp:hover{
-opacity: 0.75; background-color: #6cbfdf;
+.boxfp{
+margin-right: 15px;
+padding: 5px;
+height: 22px;
+width: 45px;
+line-height: 22px;
+background-position: center center;
+-webkit-background-size: cover; /* For WebKit*/
+-moz-background-size: cover;    /* Mozilla*/
+-o-background-size: cover;      /* Opera*/
+background-size: cover;         /* Generic*/
+display: block;
+float: left;
 }
 
-/*Sverigedemokraterna*/
-.sdp:hover{
-opacity: 0.75; background-color: #0097d7;
+
+.boxm{
+margin-right: 15px;
+padding: 5px;
+height: 22px;
+width: 35px;
+line-height: 19px;
+background-position: center center;
+-webkit-background-size: cover; /* For WebKit*/
+-moz-background-size: cover;    /* Mozilla*/
+-o-background-size: cover;      /* Opera*/
+background-size: cover;         /* Generic*/
+display: block;
+float: left;
 }
 
-/*Miljöpartiet*/
-.mpp:hover{
-opacity: 0.75; background-color: #2b912c;
+#partisymbol{
+margin-right: 30px;
+float: left;
+background-position: center center;
+-webkit-background-size: cover; /* For WebKit*/
+-moz-background-size: cover;    /* Mozilla*/
+-o-background-size: cover;      /* Opera*/
+background-size: cover;         /* Generic*/
 }
 
-/*Centerpartiet*/
-.cp:hover{
-opacity: 0.75; background-color: #41773d;
+.s{background-image:url("../img/socialdemokraterna.png");}
+.s2{height: 72px; width: 70px;}
+
+.m{background-image:url("../img/moderaterna.png");}
+.m2{height: 72px; width: 95px;}
+
+.sd{background-image:url("../img/sverigedemokraterna.png");}
+.sd2{height: 78px; width: 74px;}
+
+.mp{background-image:url("../img/miljopartiet.png");}
+.mp2{height: 72px; width: 73px;}
+
+.c{background-image:url("../img/centerpartiet.png");}
+.c2{height: 72px; width: 70px;}
+
+.v{background-image:url("../img/vansterpartiet.png");}
+.v2{height: 72px; width: 72px;}
+
+.fp{background-image:url("../img/folkpartiet.png");}
+.fp2{height: 72px; width: 120px;}
+
+.kd{background-image:url("../img/kristdemokraterna.png");}
+.kd2{height: 72px; width: 70px;}
+
+#parti-info{
+display:none;
+width: 100%;
+border-bottom: 1px solid #ddd;
+background-color: #f5f5f5;
 }
 
-/*Vänsterpartiet*/
-.vp:hover{
-opacity: 0.75; background-color: #ed1d24;
+.parti-info-content{
+padding: 40px;
 }
 
-/*Folkpartiet*/
-.fp:hover{
-opacity: 0.75; background-color: #003c90;
+.info-knapp{
+float: right;
+border: 1px solid #ddd;
+background-color: #eee;
+padding: 15px 20px 15px 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-top: 10px;
+font-family: 'Open Sans', sans-serif;
+width: 145px;
+display: block;
+text-align: center;
 }
 
-/*Kristdemokraterna*/
-.kdp:hover{
-opacity: 0.75; background-color: #073192;
+input{
+border:0;
+outline:none;
+cursor: pointer;
 }
 
-/*Feministisk intiativ*/
-.fip:hover{
-opacity: 0.75; background-color: #d93996;
+ul.col-3 {
+column-count: 3;
+column-gap: 20px;
+}
+
+.col-3 {
+-webkit-column-count: 3;
+-webkit-column-gap: 20px;
+-moz-column-count: 3;
+-moz-column-gap: 20px;
+font-size:14px;
+}
+
+.col-3-div {
+-webkit-column-count: 3;
+-webkit-column-gap: 20px;
+-moz-column-count: 3;
+-moz-column-gap: 20px;
+font-size:14px;
 }

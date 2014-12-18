@@ -10,14 +10,14 @@
 <div id="content-content">
 
 <?php
-                $myBucket = $client->bucket('world');
+                $myBucket = $client->bucket('index');
                 $keys = $myBucket->getKeys();
 
                 for($x=0; $x<=30; $x++) {
                 $fetched = $myBucket->get($keys[$x]);
                 $data = $fetched->getData();
                 $user = $data['user'];
-                date_default_timezone_set('UTC+8');
+                date_default_timezone_set('UTC');
                 $date = new DateTime( $data->created_at);
 
 
