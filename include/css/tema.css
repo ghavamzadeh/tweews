@@ -82,11 +82,11 @@ color: #666;
 }
 
 a{
--webkit-transition: all 300ms ease;
--moz-transition: all 300ms ease;
--ms-transition: all 300ms ease;
--o-transition: all 300ms ease;
-transition: all 300ms ease;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 text-decoration: none;
 }
 
@@ -141,6 +141,11 @@ float: left;
 border-radius: 5px 5px 5px 5px;
 }
 
+.sep{
+height: 1px;
+background-color: rgba(255, 255, 255, 0.05);
+}
+
 #menu ul {
 margin: 0; 
 padding: 0;
@@ -149,12 +154,14 @@ list-style-type: none;
 
 #menu ul li a {
 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-padding: 20px 0px 20px 30px;
 color: #fff;
-display: block;
 font-size: 13px;
-line-height: 25px;
+padding-left: 30px;
+padding-right: 30px;
+height: 20px;
+display: block;
+padding-top: 20px;
+padding-bottom: 20px;
 }
  
 #menu ul li a:hover{

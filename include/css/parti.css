@@ -55,28 +55,28 @@ background-size: cover;         /* Generic*/
 }
 
 .s{background-image:url("../img/socialdemokraterna.PNG");}
-.s2{height: 72px; width: 70px;}
+.p1{border-top: 4px solid #eb1b34;}
 
 .m{background-image:url("../img/moderaterna.PNG");}
-.m2{height: 72px; width: 95px;}
+.p2{border-top: 4px solid #66beec;}
 
 .sd{background-image:url("../img/sverigedemokraterna.PNG");}
-.sd2{height: 78px; width: 74px;}
+.p3{border-top: 4px solid #ffce00;}
 
 .mp{background-image:url("../img/miljopartiet.PNG");}
-.mp2{height: 72px; width: 73px;}
+.p4{border-top: 4px solid #00ad4c;}
 
 .c{background-image:url("../img/centerpartiet.PNG");}
-.c2{height: 72px; width: 70px;}
+.p5{border-top: 4px solid #028d44;}
 
 .v{background-image:url("../img/vansterpartiet.PNG");}
-.v2{height: 72px; width: 72px;}
+.p6{border-top: 4px solid #e30613;}
 
 .fp{background-image:url("../img/folkpartiet.PNG");}
-.fp2{height: 72px; width: 120px;}
+.p7{border-top: 4px solid #369ad5;}
 
 .kd{background-image:url("../img/kristdemokraterna.png");}
-.kd2{height: 72px; width: 70px;}
+.p8{border-top: 4px solid #004d9f;}
 
 #parti-info{
 display:none;

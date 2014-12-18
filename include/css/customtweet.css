@@ -36,7 +36,6 @@ border-radius: 150px;
 .ctheader{display: block; height: 70px; line-height: 50px;}
 .datum{float: right; font-size: 14px; color: #ddd;}
 .tcontent{
-display: block;
 }
 
 .tcontent p{
