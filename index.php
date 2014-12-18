@@ -46,7 +46,7 @@
 
                 echo '<div class="tcontent"><p>';
 				echo $data['text']. "<br>";
-                echo '</div>';
+                echo '</p></div>';
 
                 /* BOX WRAPPER END #1 */
                 echo '</div>';
