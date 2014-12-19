@@ -13,20 +13,17 @@
 
 <div id="parti-info">
 	<div class="parti-info-content">
-
+	<div id="profil" class="pm">
+	
+	</div>
+	
 	<div class="col-3-div">
-	<div>Section 1</div>
-	<div>Section 2</div>
-	<div>Section 3</div>
-	<div>Section 4</div>
-	<div>Section 5</div>
-	<div>Section 6</div>
-	<div>Section 7</div>
-	<div>Section 8</div>
-	<div>Section 9</div>
-	<div>Section 10</div>
-	<div>Section 11</div>
-	<div>Section 12</div>
+	<div class="o"><strong>Partiordförande</strong> Fredrik Reinfeldt</div>
+	<div class="o"><strong>Grundat</strong> 17 oktober 1904</div>
+	<div class="o"><strong>Antal medlemmar</strong> 39 998 <i>(febr. 2014)</i></div>
+	<div class="o"><strong>Politisk ideologi</strong> Liberalkonservatism</div>
+	<div class="o"><strong>Politisk position</strong> Center-höger</div>
+	<div class="o"><strong>Hemsida</strong> <a target="_blank" href="http://www.moderat.se/">www.moderat.se</a></div>
 	</div>
 	
 	</div>
@@ -34,6 +31,7 @@
 
 
 <div id="content-content">
+
 
 <?php
                 $myBucket = $client->bucket('moderaterna');
@@ -77,6 +75,7 @@
                 echo '</div>';
 }
 ?>
+
 </div>
 
 </div>

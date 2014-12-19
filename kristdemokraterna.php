@@ -13,20 +13,17 @@
 
 <div id="parti-info">
 	<div class="parti-info-content">
-
+	<div id="profil" class="pk">
+	
+	</div>
+	
 	<div class="col-3-div">
-	<div>Section 1</div>
-	<div>Section 2</div>
-	<div>Section 3</div>
-	<div>Section 4</div>
-	<div>Section 5</div>
-	<div>Section 6</div>
-	<div>Section 7</div>
-	<div>Section 8</div>
-	<div>Section 9</div>
-	<div>Section 10</div>
-	<div>Section 11</div>
-	<div>Section 12</div>
+	<div class="o"><strong>Partiordförande</strong> Göran Hägglund</div>
+	<div class="o"><strong>Grundat</strong> 20 mars 1964</div>
+	<div class="o"><strong>Antal medlemmar</strong> 20 481 <i>(febr. 2014)</i></div>
+	<div class="o"><strong>Politisk ideologi</strong> Kristdemokrati, Socialkonservatism</div>
+	<div class="o"><strong>Politisk position</strong> Center-höger</div>
+	<div class="o"><strong>Hemsida</strong> <a target="_blank" href="http://www.kristdemokraterna.se">www.kristdemokraterna.se</a></div>
 	</div>
 	
 	</div>

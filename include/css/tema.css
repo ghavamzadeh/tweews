@@ -81,6 +81,11 @@ border: 1px solid #666;
 color: #666;
 }
 
+strong{
+font-weight: 600;
+color: #000;
+}
+
 a{
 -webkit-transition: all 500ms ease;
 -moz-transition: all 500ms ease;

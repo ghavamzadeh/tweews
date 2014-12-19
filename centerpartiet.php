@@ -13,20 +13,17 @@
 
 <div id="parti-info">
 	<div class="parti-info-content">
-
+	<div id="profil" class="pc">
+	
+	</div>
+	
 	<div class="col-3-div">
-	<div>Section 1</div>
-	<div>Section 2</div>
-	<div>Section 3</div>
-	<div>Section 4</div>
-	<div>Section 5</div>
-	<div>Section 6</div>
-	<div>Section 7</div>
-	<div>Section 8</div>
-	<div>Section 9</div>
-	<div>Section 10</div>
-	<div>Section 11</div>
-	<div>Section 12</div>
+	<div class="o"><strong>Partiordförande</strong> Annie Lööf</div>
+	<div class="o"><strong>Grundat</strong> 2 mars 1913</div>
+	<div class="o"><strong>Antal medlemmar</strong> 28 871 <i>(2014)</i></div>
+	<div class="o"><strong>Politisk ideologi</strong> Liberalism, Grön ideologi, Decentralism</div>
+	<div class="o"><strong>Politisk position</strong> Center-höger</div>
+	<div class="o"><strong>Hemsida</strong> <a target="_blank" href="http://www.centerpartiet.se/">www.centerpartiet.se</a></div>
 	</div>
 	
 	</div>
