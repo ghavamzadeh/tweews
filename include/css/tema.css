@@ -163,7 +163,8 @@ color: #fff;
 font-size: 13px;
 padding-left: 30px;
 padding-right: 30px;
-height: 20px;
+line-height: 25px;
+height: 23px;
 display: block;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -172,7 +173,8 @@ padding-bottom: 20px;
 #menu ul li a:hover{
 color: #fff;
 padding-left: 40px;
-}
+ opacity: 0.2;
+ }
 
 #wrap{
 min-height: 100%;

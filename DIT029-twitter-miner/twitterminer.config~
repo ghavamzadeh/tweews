@@ -1,0 +1,11 @@
+[{twitterminer, [
+  {twitter_accounts, [
+    {account1, [
+	    {api_key, "pAnUChlKSax7CjQSXvP4oGsex"},
+	    {api_secret, "TLafZR1QVAKt5PaSbXm7jN1YT9Yu5WwRR0FvaUBpnMsSmLGQp7"},
+	    {access_token, "2821193943-8UvaFEyJLW85zuRNT2RmXxzGG8MFDlsveGbd5im"},
+	    {access_token_secret, "2rAmIFB7MDLMVrBPub1i8BZxrwftvAV0l4W4kqwPtOCQa"}]}]},
+  {riak_nodes, [
+    {riak1, [
+	    {host, "127.0.0.1"},
+	    {port, 8081}]}]}]}].

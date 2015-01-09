@@ -3,21 +3,21 @@
 <div id="menu">
 
 	<ul>		
-		<li><a href="socialdemokraterna.php">Socialdemokraterna</a></li>
+		<li><a href="socialdemokraterna.php"><div class="box s"></div>Socialdemokraterna</a></li>
 		<li class="sep"></li>
-		<li><a href="moderaterna.php">Moderaterna</a></li>
+		<li><a href="moderaterna.php"><div class="boxm m"></div>Moderaterna</a></li>
 		<li class="sep"></li>
-		<li><a href="sverigedemokraterna.php">Sverigedemokraterna</a></li>
+		<li><a href="sverigedemokraterna.php"><div class="box sd"></div>Sverigedemokraterna</a></li>
 		<li class="sep"></li>
-		<li><a href="miljopartiet.php">Miljöpartiet</a></li>
+		<li><a href="miljopartiet.php"><div class="box mp"></div>Miljöpartiet</a></li>
 		<li class="sep"></li>
-		<li><a href="centerpartiet.php">Centerpartiet</a></li>
+		<li><a href="centerpartiet.php"><div class="box c"></div>Centerpartiet</a></li>
 		<li class="sep"></li>
-		<li><a href="vansterpartiet.php">Vänsterpartiet</a></li>
+		<li><a href="vansterpartiet.php"><div class="box v"></div>Vänsterpartiet</a></li>
 		<li class="sep"></li>
-		<li><a href="folkpartiet.php">Folkpartiet</a></li>
+		<li><a href="folkpartiet.php"><div class="boxfp fp"></div>Folkpartiet</a></li>
 		<li class="sep"></li>
-		<li><a href="kristdemokraterna.php">Kristdemokraterna</a></li>
+		<li><a href="kristdemokraterna.php"><div class="box kd"></div>Kristdemokraterna</a></li>
 		<li class="sep"></li>
 	</ul>
 
